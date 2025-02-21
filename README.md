@@ -24,6 +24,10 @@ This code is associated with the paper:
 📝 License
 This project is licensed under the MIT License – see the LICENSE file for details.
 
+📖 Cite this work:
+[![DOI](https://zenodo.org/badge/936695872.svg)](https://doi.org/10.5281/zenodo.14906887)
+
+
 
 
 
