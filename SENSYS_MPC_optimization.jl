@@ -39,7 +39,7 @@ N = Int(12 / h)  # prediction horizon
 time = 0:h:(48 + N * h) # simulation time (48 hours)
 
 # Load data from Excel
-data=XLSX.readdata("/SENSYS_energy_data.xlsx", "January!A2:F62")
+data=XLSX.readdata("SENSYS_energy_data.xlsx", "January!A2:F62")
 Q_dem = data[:, 2] # heat demand
 P_dem = data[:, 3] # electricity demand
 P_solar = data[:, 4] # solar energy 
